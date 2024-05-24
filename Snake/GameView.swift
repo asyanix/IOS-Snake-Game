@@ -42,6 +42,7 @@ struct GameView: View {
                 Text("Ваш счет: \(viewModel.score), Рекорд: \(viewModel.highScore)")
             }
         )
+        .background(.white)
     }
     
     // Определяем направление движения змейки по жестам
