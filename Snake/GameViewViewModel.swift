@@ -26,6 +26,7 @@ enum GameState {
     }
 }
 
+// Направления движения
 enum Direction
 {
     case up, down, left, right
